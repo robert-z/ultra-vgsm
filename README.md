@@ -7,16 +7,27 @@ ULTRA Video Game Search Machine (ULTRA VGSM) is a [SPA](https://en.wikipedia.org
 ```sh
 $ git clone https://github.com/robert-z/ultra-vgsm
 ```
+
 * Move to your project folder: 
 ```sh
 $ cd ultra-vgsm
 ```
+
+* Copy the default environment variables: 
+```sh
+$ cp .env.dist .env
+```
+
+* Add your THEGAMESDB APIKEY in your `.env` file
+
 * Install dependecies
 ```sh
 $ npm i
 ```
+
 * Start the services: 
 ```sh
 $ npm start
 ```
+
 * Go to the [development mode](http://localhost:3000)
